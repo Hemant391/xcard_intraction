@@ -33,7 +33,7 @@ h2 {
   align-items: center;
 }
 
-.inner-text {
+.card__time {
   display: flex;
   justify-content: center;
   align-items: center;
@@ -45,6 +45,6 @@ h2 {
   transition: transform 0.3s ease-in-out; */
   filter: brightness(0.5);
     transition: filter 0.3s ease-in-out;
-    
+
 
 }
