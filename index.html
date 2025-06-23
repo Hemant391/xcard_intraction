@@ -3,31 +3,53 @@
   <head>
     <meta charset="UTF-8" />
     <link rel="stylesheet" href="./styles/styles.css" />
+    <link href="https://fonts.googleapis.com/css2?family=Outfit&display=swap" rel="stylesheet" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title>Document</title>
+    <style>
+      body {
+        font-family: 'Outfit', sans-serif;
+      }
+    </style>
   </head>
   <body>
-    <div class="card">
-      <!-- <div> -->
+    <main class="card">
       <div class="card__images">
+        <!-- <img src="assets/image-equilibrium.jpg" alt="NFT Preview" /> -->
         <img src="assests/image-equilibrium.jpg" alt="" srcset="">
       </div>
-      <h2 class="card__title">Equilibrium #3429</h2>
-      <p style="color: grey">
-        Our equilibrium balance promotes balance and calm
+      <h1 class="card__title">Equilibrium #3429</h1>
+      <p id="info">
+        Our Equilibrium collection promotes balance and calm.
       </p>
 
       <div class="inner-box">
         <div class="inner-text">
           <img src="assests/icon-ethereum.svg" alt="" srcset="">
-          <span class="card__time-left" style="font-size: smaller">0.041 ETH</span>
+          <span class="card__time-left">0.041 ETH</span>
         </div>
-
-        <div class=" card__time">
+        <div class="card__time">
+   
           <img src="assests/icon-clock.svg" alt="" srcset="">
           <span class="card__time-right">3 days left</span>
         </div>
       </div>
-    </div>
+
+      <div class="card__creator">
+        <img
+          src="https://media.licdn.com/dms/image/D5603AQHmisevs6V-Wg/profile-displayphoto-shrink_200_200/0/1711565017432?e=2147483647&v=beta&t=2gxdXF049G8KQ53xOdouFjL_DKFruEzC2XH5LmLtem4"
+          alt="Creator Image"
+          width="30"
+          style="border-radius: 50%;"
+        />
+        <!-- <img src="assests/image-equilibrium.jpg" alt="" srcset=""> -->
+        <p><span style="color: grey">Creation of</span> Hemant Panwar</p>
+      </div>
+    </main>
+
+    <footer>
+      <a href="https://www.crio.do" target="_blank">Crio</a>
+      <a href="https://www.github.com/yourusername" target="_blank">GitHub</a>
+    </footer>
   </body>
 </html>
