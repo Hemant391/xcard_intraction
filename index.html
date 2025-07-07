@@ -9,7 +9,7 @@
 </head>
 <body>
   <div class="main">
-    <div class="sign-up-form" id="form-section">
+    <div class="sign-up-form">
       <picture>
         <source media="(max-width: 768px)" srcset="assets/mobile.png" />
         <img src="assets/desktop.png" alt="Newsletter Banner" />
@@ -28,15 +28,6 @@
         <em id="error-msg" style="display: none;">Valid email required.</em>
         <button type="submit" class="sub-btn">Subscribe</button>
       </form>
-    </div>
-
-    <div class="thanks-for-sub" id="success-section" style="display: none;">
-      <img src="https://upload.wikimedia.org/wikipedia/commons/thumb/2/27/White_check.svg/2048px-White_check.svg.png" alt="Success" width="50">
-      <h2>Thanks for Subscribing!</h2>
-      <p class="success-text">
-        A confirmation email has been sent to <strong id="user-email"></strong>. Please open it and click the button inside to confirm your subscription.
-      </p>
-      <button class="dismiss-btn" onclick="window.location.href='index.html'">Dismiss</button>
     </div>
 
     <footer class="footer">

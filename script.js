@@ -10,10 +10,7 @@ document.getElementById("newsletter-form").addEventListener("submit", function (
     errorMsg.style.display = "block";
     emailInput.classList.add("input-error");
   } else {
-    errorMsg.style.display = "none";
-    emailInput.classList.remove("input-error");
-    document.getElementById("form-section").style.display = "none";
-    document.getElementById("success-section").style.display = "block";
-    document.getElementById("user-email").textContent = email;
+    localStorage.setItem("subscribedEmail", email);
+    window.location.href = "success.html";
   }
 });
