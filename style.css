@@ -54,13 +54,13 @@ body {
 }
 
 .input-error {
-  border-color: rgb(255, 99, 71) !important;
-  background-color: rgba(255, 99, 71, 0.6) !important;
-  color: rgb(255, 99, 71) !important;
+  border-color: rgb(204, 204, 204) !important;
+  background-color: rgba(204, 204, 204, 0.6) !important;
+  color: rgb(204, 204, 204) !important;
 }
 
 em {
-  color: rgb(255, 99, 71);
+  color: rgb(204, 204, 204);
   font-style: italic;
   font-size: 0.9em;
 }
