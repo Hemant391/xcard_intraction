@@ -1,52 +1,96 @@
 body {
-  background-color: #0d192d;
-  display: flex;
-  flex-direction: column;
-  height: 100vh;
-  justify-content: center;
-  align-items: center;
-  font-family: 'Outfit', sans-serif;
+  font-family: "Roboto", sans-serif;
+  background-color: #f4f4f4;
+  margin: 0;
+  padding: 0;
 }
 
-.card {
-  height: fit-content;
-  width: 300px;
-  background-color: #162640;
+.main {
+  max-width: 600px;
+  margin: auto;
+  background: #ffffff;
   border-radius: 10px;
-  padding: 10px;
+  padding: 20px;
+  box-shadow: 0px 5px 15px rgba(0,0,0,0.1);
 }
 
-.card__images img {
-  height: auto;
+.sign-up-form img {
   width: 100%;
   border-radius: 10px;
 }
 
-.inner-box {
-  display: flex;
-  justify-content: space-between;
-  align-items: center;
-  color: white;
+.sign-up-form h2 {
   margin-top: 10px;
 }
 
-.inner-text {
-  display: flex;
-  align-items: center;
-  gap: 5px;
+.sign-up-form ul {
+  padding-left: 20px;
 }
 
-.card__creator {
+.sign-up-form form {
   display: flex;
-  align-items: center;
+  flex-direction: column;
   gap: 10px;
-  color: white;
-  margin-top: 15px;
 }
 
-footer {
+.sub-btn {
+  background-color: #0077ff;
+  color: white;
+  border: none;
+  padding: 10px;
+  font-weight: bold;
+  border-radius: 5px;
+  cursor: pointer;
+}
+
+.sub-btn:hover {
+  background-color: #005fcc;
+}
+
+#email {
+  padding: 8px;
+  border-radius: 5px;
+  border: 1px solid #ccc;
+}
+
+.input-error {
+  border-color: rgb(255, 99, 71) !important;
+  background-color: rgba(255, 99, 71, 0.6) !important;
+  color: rgb(255, 99, 71) !important;
+}
+
+em {
+  color: rgb(255, 99, 71);
+  font-style: italic;
+  font-size: 0.9em;
+}
+
+.thanks-for-sub {
+  text-align: center;
+  padding: 20px;
+}
+
+.success-text {
+  margin: 15px 0;
+  color: #333;
+}
+
+.dismiss-btn {
+  background-color: #0077ff;
+  color: white;
+  padding: 10px 16px;
+  border: none;
+  border-radius: 5px;
+  cursor: pointer;
+}
+
+.footer {
+  text-align: center;
   margin-top: 20px;
-  color: white;
-  display: flex;
-  gap: 10px;
+  font-size: 0.9rem;
+}
+
+.footer a {
+  color: #0077ff;
+  text-decoration: none;
 }
