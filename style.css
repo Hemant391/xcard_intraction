@@ -54,7 +54,7 @@ body {
 }
 
 .input-error {
-  border-color: rgb(204, 204, 204) !important;
+  border-color: rgb(255, 99,71) !important;
   background-color: rgba(204, 204, 204, 0.6) !important;
   color: rgb(204, 204, 204) !important;
 }
