@@ -60,7 +60,8 @@ body {
 }
 
 em {
-  color: rgb(204, 204, 204);
+  /* color: rgb(204, 204, 204); */
+  color: rgb(255,99,71);
   font-style: italic;
   font-size: 0.9em;
 }
