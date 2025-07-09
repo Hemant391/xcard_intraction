@@ -56,9 +56,11 @@ body {
   padding: 8px;
   border-radius: 5px;
   border: 1px solid #ccc;
+  border-color: rgb(204, 204, 204);
+  color: rgb(255, 99, 71) !important;
+  background-color: rgba(255, 99, 71, 0.6) !important;
 }
 
-/* Error Styling (must match Cypress test) */
 .input-error {
   border-color: rgb(255, 99, 71) !important;
   color: rgb(255, 99, 71) !important;
